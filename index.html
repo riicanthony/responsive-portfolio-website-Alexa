@@ -28,7 +28,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -53,7 +53,7 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#contact me" class="nav__link">
+              <a href="#contact" class="nav__link">
                 <i class="uil uil-message nav__icon"></i> Contact Me
               </a>
             </li>
@@ -807,16 +807,223 @@
       </section>
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+      <section class="testimonial section">
+          <h2 class="section__title">Testimonial</h2>
+          <span class="section__subtitle">My client's experience</span>
+
+          <div class="testimonial__container container swiper-container">
+              <div class="swiper-wrapper">
+                  <!--==================== TESTIMONIAL 1 ====================-->
+                  <div class="testimonial__content swiper-slide">
+                      <div class="testimonial__data">
+                          <div class="testimonial__header">
+                              <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                              <div>
+                                  <h3 class="testimonial__name">Sara Smith</h3>
+                                  <span class="testimonial__client">Client</span>
+                              </div>
+                          </div>
+
+                          <div>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                          </div>
+                      </div>
+
+                      <p class="testimonial__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error? 
+                          Est deserunt quia voluptate nemo nisi repellat eius et suscipit ex quibusdam 
+                          impedit reprehenderit, consequatur voluptatem animi quod incidunt expedita.
+                      </p>
+                  </div>
+
+                  <!--==================== TESTIMONIAL 2 ====================-->
+                  <div class="testimonial__content swiper-slide">
+                      <div class="testimonial__data">
+                          <div class="testimonial__header">
+                              <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                              <div>
+                                  <h3 class="testimonial__name">Matt Robinson</h3>
+                                  <span class="testimonial__client">Client</span>
+                              </div>
+                          </div>
+
+                          <div>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                          </div>
+                      </div>
+
+                      <p class="testimonial__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error? 
+                          Est deserunt quia voluptate nemo nisi repellat eius et suscipit ex quibusdam 
+                          impedit reprehenderit, consequatur voluptatem animi quod incidunt expedita.
+                      </p>
+                  </div>
+
+                  <!--==================== TESTIMONIAL 3 ====================-->
+                  <div class="testimonial__content swiper-slide">
+                      <div class="testimonial__data">
+                          <div class="testimonial__header">
+                              <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                              <div>
+                                  <h3 class="testimonial__name">Dion Warwick</h3>
+                                  <span class="testimonial__client">Client</span>
+                              </div>
+                          </div>
+
+                          <div>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                            <i class="uil uil-star testimonial__icon-star"></i>
+                          </div>
+                      </div>
+
+                      <p class="testimonial__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error? 
+                          Est deserunt quia voluptate nemo nisi repellat eius et suscipit ex quibusdam 
+                          impedit reprehenderit, consequatur voluptatem animi quod incidunt expedita.
+                      </p>
+                  </div>
+              </div>
+
+              <!-- Add Pagination -->
+              <div class="swiper-pagination swiper-pagination-testimonial"></div>
+          </div>
+      </section>
 
       <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+          <h2 class="section__title">Contact Me</h2>
+          <span class="section__subtitle">Let's meet up</span>
+
+          <div class="contact__container container grid">
+              <div>
+                  <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle">888-888-8888</span>
+                    </div>
+                  </div>
+
+                  <div class="contact__information">
+                    <i class="uil uil-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">ric@ricanthony.com</span>
+                    </div>
+                  </div>
+
+                  <div class="contact__information">
+                    <i class="uil uil-map-marker contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Kingston - Jamaica</span>
+                    </div>
+                  </div>
+              </div>
+
+                  <form action="" class="contact__form grid">
+                      <div class="contact__inputs grid">
+                          <div class="contact__content">
+                              <label for="name" class="contact__label">Name</label>
+                              <input type="text" id="name" name="name" class="contact__input">
+                          </div>
+
+                          <div class="contact__content">
+                              <label for="email" class="contact__label">Email</label>
+                              <input type="email" id="email" name="email" class="contact__input">
+                          </div>
+
+                          <div class="contact__content">
+                              <label for="project" class="contact__label">Project</label>
+                              <!-- <input list="project_type" id="project" name="project" class="contact__input"> -->
+
+                              <select name="project_type" id="project" class="contact__input">
+                                  <option value="select">-- Select an option --</option>
+                                  <option value="web development">Web Development</option>
+                                  <option value="Web Design">Web Design</option>
+                                  <option value="ui_ux">Ui/Ux Design</option>
+                                  <option value="content">Content Creation</option>
+                              </select>
+                          </div>
+
+                          <div class="contact__content">
+                              <label for="description" class="contact__label">Description</label>
+                              <textarea name="" id="description cols="0" rows="7" class="contact__input"></textarea>
+                          </div>
+
+                          <div>
+                              <a href="#" class="button button--flex contact__button">
+                                  Submit
+                                  <i class="uil uil-message button__icon button--icon--contact"></i>
+                              </a>
+                          </div>
+
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Ric</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="#" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Ric-Anthony Morgan. All rights reservered</p>
+        </div>
+    </footer>
 
     <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-double-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
